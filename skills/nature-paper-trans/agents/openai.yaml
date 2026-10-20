@@ -1,0 +1,5 @@
+# English edition: modified 2026-10-20; see EDITION-NOTICE.md at package root.
+interface:
+  display_name: "Paper PDF Translation"
+  short_description: "Translate paper PDFs while preserving page layout"
+  default_prompt: "Use $nature-paper-trans to translate this paper into the requested language while preserving page sizes and layout, and deliver only the translated PDF."

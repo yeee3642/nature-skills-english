@@ -1,0 +1,2 @@
+# Optional CNIPA published-patent search support
+playwright>=1.40

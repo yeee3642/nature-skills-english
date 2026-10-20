@@ -1,0 +1,5 @@
+# English edition: modified 2026-10-20; see EDITION-NOTICE.md at package root.
+[academic-search]
+trigger = ["search papers", "find articles", "academic search", "literature search", "verify references", "check DOI", "verify citations", "strict other citation", "independent citation audit", "exclude self-citations", "article citation table", "citation metrics table", "strict other-citation count", "influential citer", "citation context", "Fellow citation", "download citation", "export .nbib", "export .ris", "import EndNote", "build search strategy", "MeSH", "deduplicate references", "BibTeX", "DOI", "PMID"]
+priority = 5
+suppress_active_skills = ["lit-process"]

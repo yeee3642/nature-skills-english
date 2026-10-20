@@ -1,0 +1,23 @@
+{
+  "skill_name": "nature-paper-to-patent",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Analyse a PDF paper containing model architecture, loss functions, and a detection workflow. Draft an English invention-patent research package for inventor and jurisdiction-appropriate professional review. Produce separate claims, specification, abstract, and abstract figure. Core equations must be native editable Office Math, and every material claim feature must map to a source page or equation.",
+      "expected_output": "A complete English patent research draft package with stable source IDs, evidence ledger, claim-feature map, editable equations, a claim-aligned main flowchart, methodology figures, separate DOCX files, and passing validation reports.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "The paper is a scanned PDF and OCR is unclear for some equations. First extract the confirmed technical solution and draft claims. Do not guess uncertain symbols.",
+      "expected_output": "An OCR-aware claim draft that marks uncertain source blocks, excludes unsupported limitations from formal claims, lists specific inventor questions, and does not fabricate equation symbols.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Compare a paper with an existing patent. Check support for each patent-claim feature, identifying paper-only and patent-only content and differences in scope, with exact source locators.",
+      "expected_output": "Separate source maps plus a bidirectional feature table using the declared relationship labels, exact locators for both documents, and no assumption that patent-only text is paper-supported.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# English edition: modified 2026-10-20; see EDITION-NOTICE.md at package root.
+interface:
+  display_name: "Nature Reader"
+  short_description: "Build English, figure-aware full-paper readers"
+  default_prompt: "Use $nature-reader to build an English, figure-aware reader for this paper."
